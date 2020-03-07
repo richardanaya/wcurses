@@ -6,7 +6,7 @@ edition = "2018"
 description = "a simple terminal control library"
 readme = "README.md"
 repository = "https://github.com/richardanaya/wcurses"
-license = "MIT or Apache-2.0"
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
