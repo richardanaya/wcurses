@@ -15,6 +15,8 @@ Want to make your wasi terminal apps look a bit cooler? Trying to move the termi
 wasmer my_app.wasm --env LINES=20 --env COLUMNS=80
 ```
 
+The biggest todo for this library is a raw mode character input. That depends on a standardized device file that could get use info of key strokes.
+
 # License
 
 This project is licensed under either of
