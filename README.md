@@ -15,7 +15,7 @@ Want to make your wasi terminal apps look a bit cooler with RGB colored text? Tr
 wasmer my_app.wasm --env LINES=$(tput lines) --env COLUMNS=$(tput cols)
 ```
 
-The biggest todo for this library is a raw mode character input. That depends on a standardized device file that could get use info of key strokes.
+**The biggest todo for this library is a raw mode character input. That depends on a standardized device file that could get use info of key strokes. If you have any ideas on this, let me know!**
 
 # License
 
