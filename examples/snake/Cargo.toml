@@ -1,0 +1,16 @@
+[package]
+name = "snake"
+version = "0.0.1"
+description = "a snake"
+readme = "README.md"
+repository = "https://github.com/richardanaya/wcurses/examples/snake"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+
+[dependencies]
+wcurses = {path = "../../../wcurses", version="0"}
+libw = {version="0"}
