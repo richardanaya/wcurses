@@ -2,6 +2,8 @@
 
 <a href="https://docs.rs/wcurses"><img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square" alt="docs.rs docs" /></a>
 
+![wcurses example](loop.gif)
+
 ```toml
 [dependencies]
 wcurses = "0"
