@@ -1,0 +1,16 @@
+[package]
+name = "noise"
+version = "0.0.1"
+description = "stress test"
+readme = "README.md"
+repository = "https://github.com/richardanaya/wcurses/examples/noise"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+
+[dependencies]
+wcurses = {path = "../../../wcurses", version="0"}
+libw = {version="0"}

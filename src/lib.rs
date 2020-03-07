@@ -28,9 +28,9 @@ pub fn dimensions() -> (u32, u32) {
 pub fn set_cursor_position(row: u32, col: u32) {
     let mut cmd = XTERM_ESCAPE.to_string();
     cmd.push_str("[");
-    cmd.push_str(&row.to_string());
+    cmd.push_str(&(row+1).to_string());
     cmd.push_str(";");
-    cmd.push_str(&col.to_string());
+    cmd.push_str(&(col+1).to_string());
     cmd.push_str("f");
     print(&cmd);
 }
@@ -89,4 +89,12 @@ pub fn fast_blink() {
 
 pub fn underline() {
     print("\u{001b}[4m");
+}
+
+pub fn hide_cursor() {
+    print("\u{001b}[?25l");
+}
+
+pub fn show_cursor() {
+    print("\u{001b}[?25l");
 }

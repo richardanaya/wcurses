@@ -1,0 +1,15 @@
+[package]
+name = "richard/noise"
+version = "0.0.8"
+description = "noise test for performance"
+readme = "README.md"
+repository = "https://github.com/richardanaya/wcurses/examples/noise"
+
+[[module]]
+name = "noise"
+source = "noise.wasm"
+abi = "wasi"
+
+[[command]]
+name = "noise"
+module = "noise"

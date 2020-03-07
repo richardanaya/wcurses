@@ -1,6 +1,6 @@
 [package]
 name = "richard/snake"
-version = "0.0.1"
+version = "0.0.7"
 description = "a snake"
 readme = "README.md"
 repository = "https://github.com/richardanaya/wcurses/examples/snake"
