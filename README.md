@@ -12,7 +12,7 @@ wcurses = "0"
 Want to make your wasi terminal apps look a bit cooler with RGB colored text? Trying to move the terminal cursor around for a text game? want to clear the screen? This lib might be for you.  It was made with [http://webassembly.sh/](http://webassembly.sh/) in mind, but it should work with wasmer with a command like the following.
 
 ```bash
-wasmer my_app.wasm --env LINES=20 --env COLUMNS=80
+wasmer my_app.wasm --env LINES=$(tput lines) --env COLUMNS=$(tput cols)
 ```
 
 The biggest todo for this library is a raw mode character input. That depends on a standardized device file that could get use info of key strokes.
