@@ -2,7 +2,7 @@
 
 <a href="https://docs.rs/wcurses"><img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square" alt="docs.rs docs" /></a>
 
-![wcurses example](Untitled_ Mar 7, 2020 12_02 PM.gif)
+![wcurses example](loop.gif)
 
 ```toml
 [dependencies]
