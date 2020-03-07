@@ -4,6 +4,8 @@
 
 ![wcurses example](loop.gif)
 
+[demo](https://webassembly.sh/?run-command=noise)
+
 ```toml
 [dependencies]
 wcurses = "0"
