@@ -9,7 +9,7 @@
 wcurses = "0"
 ```
 
-Want to make your wasi terminal apps look a bit cooler? Trying to move the terminal cursor around for a text game? want to clear the screen? This lib might be for you.  It was made with [http://webassembly.sh/](http://webassembly.sh/) in mind, but it should work with wasmer with a comand like the following.
+Want to make your wasi terminal apps look a bit cooler with RGB colored text? Trying to move the terminal cursor around for a text game? want to clear the screen? This lib might be for you.  It was made with [http://webassembly.sh/](http://webassembly.sh/) in mind, but it should work with wasmer with a command like the following.
 
 ```bash
 wasmer my_app.wasm --env LINES=20 --env COLUMNS=80
